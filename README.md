@@ -1,8 +1,15 @@
 # 🛒 E-Commerce Microservices Platform
-
+[![Java](https://img.shields.io/badge/Java-17+-orange.svg)](https://www.oracle.com/java/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen.svg)](https://spring.io/projects/spring-boot)
 [![Spring Cloud](https://img.shields.io/badge/Spring%20Cloud-2023.x-blue.svg)](https://spring.io/projects/spring-cloud)
-[![Java](https://img.shields.io/badge/Java-17+-orange.svg)](https://www.oracle.com/java/)
+[![Microservices](https://img.shields.io/badge/Architecture-Microservices-red.svg)]()
+[![Maven](https://img.shields.io/badge/Maven-3.9+-C71A36.svg)](https://maven.apache.org/)
+[![Spring Cloud Gateway](https://img.shields.io/badge/Spring%20Cloud%20Gateway-2023.x-purple.svg)](https://spring.io/projects/spring-cloud-gateway)
+[![Eureka](https://img.shields.io/badge/Eureka%20Server-Discovery-brightgreen.svg)](https://spring.io/projects/spring-cloud-netflix)
+[![Resilience4j](https://img.shields.io/badge/Resilience4j-CircuitBreaker%2FRetry-yellow.svg)](https://resilience4j.readme.io/)
+[![OpenFeign](https://img.shields.io/badge/OpenFeign-Client-blue.svg)](https://spring.io/projects/spring-cloud-openfeign)
+[![Gateway Auth](https://img.shields.io/badge/Authentication-JWT%20Gateway-green.svg)]()
+
 
 A comprehensive **E-Commerce Microservices Platform** built using **Spring Boot** and the **Spring Cloud ecosystem**. This project demonstrates how to architect a scalable, maintainable, and distributed microservice-based system with production-ready features including service discovery, API gateway, distributed tracing, and centralized logging.
 
@@ -12,6 +19,9 @@ This microservices platform follows the **distributed architecture pattern** wit
 
 ![image](https://github.com/user-attachments/assets/363444ac-3585-483f-bfaf-7da4b8d851d6)
 
+
+## WorkFlow Diagram For Authentication 🔁
+<img width="1318" height="701" alt="thumbail_Authentication" src="https://github.com/user-attachments/assets/6b779958-96d5-4623-8f50-9a3a43116f15" />
 
 ## ✨ Features
 
