@@ -390,6 +390,16 @@ https://github.com/user-attachments/assets/57c70b69-cd46-4622-81bb-16a96df8062f
 
 
 
+## 🎥 Containerization of  My E-ccomerce Application 🐳
+
+
+https://github.com/user-attachments/assets/96db593f-bd6b-4c4c-9fc8-67ae5df0ac48
+
+
+
+https://github.com/user-attachments/assets/5c7d4def-4ff8-4bc4-b009-66a5f954e072
+
+
 
 ## 📚 Documentation
 
@@ -432,6 +442,7 @@ This project demonstrates:
 - ✅ **DevOps** practices with monitoring and logging
 - ✅ **Security** implementation in microservices
 - ✅ **Performance** optimization techniques
+- ☑️ **Dockerized** My Application
 
 ## 🚀 Future Enhancements
 
