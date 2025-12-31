@@ -22,7 +22,8 @@ public class LoggingOrdersFilter extends AbstractGatewayFilterFactory<LoggingOrd
             log.info("Logging from Pre Orders: {}", exchange.getRequest().getURI());
             return chain.filter(exchange)
                     .then(Mono.fromRunnable(() ->
-                            log.info("Logging from Post Orders: Status code = {}", exchange.getResponse().getStatusCode())
+                            log.info("Logging from Post Orders: Status code = {}",
+                                    exchange.getResponse().getStatusCode())
                     ));
         };
     }

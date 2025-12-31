@@ -1,0 +1,50 @@
+version: "3.8"
+
+services:
+  zipkin:
+    image: openzipkin/zipkin:latest
+    ports:
+      - "9411:9411"
+    networks:
+      - my-network
+
+  discovery-service:
+    image: rohan1010/discovery-service
+    networks:
+      - my-network
+
+  config-server:
+    image: rohan1010/config-server
+    depends_on:
+      - discovery-service
+    networks:
+      - my-network
+
+  inventory-service:
+    image: rohan1010/inventory-service
+    depends_on:
+      - config-server
+      - zipkin
+    networks:
+      - my-network
+
+  order-service:
+    image: rohan1010/order-service
+    depends_on:
+      - config-server
+      - zipkin
+    networks:
+      - my-network
+
+  api-gateway-service:
+    image: rohan1010/api-gateway-service
+    depends_on:
+      - order-service
+      - inventory-service
+    ports:
+      - "8081:8081"
+    networks:
+      - my-network
+
+networks:
+  my-network:
